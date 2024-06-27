@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "mxtestmod:citrine_ore",
+              "name": "mxtestmod:deepslate_citrine_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
