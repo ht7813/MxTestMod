@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "mxtestmod:citrine_block"
+		}
+	],
+	"result": {
+		"item": "mxtestmod:citrine",
+		"count": 9
+	}
+}
