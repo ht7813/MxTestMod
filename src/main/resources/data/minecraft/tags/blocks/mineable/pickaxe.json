@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mxtestmod:citrine_ore",
+    "mxtestmod:citrine_block",
+    "mxtestmod:deepslate_citrine_ore"
+  ]
+}
