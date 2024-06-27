@@ -1,0 +1,10 @@
+{
+  "item.mxtestmod.citrine" : "Citrine",
+  "item.mxtestmod.raw_citrine" : "Raw Citrine",
+
+  "block.mxtestmod.citrine_block" : "Block of Citrine",
+  "block.mxtestmod.citrine_ore" : "Citrine Ore",
+  "block.mxtestmod.deepslate_citrine_ore" : "Deepslate Citrine Ore",
+
+  "itemgroup.mxtestmod.citrine" : "Citrine"
+}

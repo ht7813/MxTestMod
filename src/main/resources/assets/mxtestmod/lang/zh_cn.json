@@ -1,0 +1,10 @@
+{
+  "item.mxtestmod.citrine": "黄晶",
+  "item.mxtestmod.raw_citrine": "粗黄晶",
+
+  "block.mxtestmod.citrine_block" : "黄晶块",
+  "block.mxtestmod.citrine_ore" : "黄晶矿石",
+  "block.mxtestmod.deepslate_citrine_ore" : "深层黄晶矿石",
+
+  "itemgroup.mxtestmod.citrine": "黄晶"
+}
