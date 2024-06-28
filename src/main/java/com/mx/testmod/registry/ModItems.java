@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+@SuppressWarnings("unused")
 public class ModItems {
     public static final Item CITRINE = registerItem("citrine",
             new Item(new FabricItemSettings()),
