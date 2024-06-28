@@ -22,14 +22,14 @@ public class ModItems {
     public static final Item CITRINE_HELMET = registerItem("citrine_helmet",
             new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.HELMET, new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
-    public static final Item CITRINE_BOOTS = registerItem("citrine_boots",
-            new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.BOOTS, new FabricItemSettings()),
-            ModItemGroup.CITRINE, ItemGroups.COMBAT);
     public static final Item CITRINE_CHESTPLATE = registerItem("citrine_chestplate",
             new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
     public static final Item CITRINE_LEGGINGS = registerItem("citrine_leggings",
             new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()),
+            ModItemGroup.CITRINE, ItemGroups.COMBAT);
+    public static final Item CITRINE_BOOTS = registerItem("citrine_boots",
+            new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.BOOTS, new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
     public static Item registerItem(String name, Item item, ItemGroup... itemGroups) {
         Item registerItem = Registry.register(Registries.ITEM, new Identifier(MxTestMod.MOD_ID, name), item);
