@@ -2,12 +2,10 @@ package com.mx.testmod.registry;
 
 import com.mx.testmod.MxTestMod;
 import com.mx.testmod.material.CitrineArmorMaterial;
+import com.mx.testmod.material.CitrineToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -33,6 +31,11 @@ public class ModItems {
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
     public static final Item CITRINE_BOOTS = registerItem("citrine_boots",
             new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.BOOTS, new FabricItemSettings()),
+            ModItemGroup.CITRINE, ItemGroups.COMBAT);
+
+    //Tools
+    public static final Item CITRINE_SWORD = registerItem("citrine_sword",
+            new SwordItem(CitrineToolMaterial.CITRINE, 4, 0f, new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
 
     public static Item registerItem(String name, Item item, ItemGroup... itemGroups) {
