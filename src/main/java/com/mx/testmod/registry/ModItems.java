@@ -20,6 +20,8 @@ public class ModItems {
     public static final Item RAW_CITRINE = registerItem("raw_citrine",
             new Item(new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.INGREDIENTS);
+
+    //Armors
     public static final Item CITRINE_HELMET = registerItem("citrine_helmet",
             new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.HELMET, new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
@@ -32,6 +34,7 @@ public class ModItems {
     public static final Item CITRINE_BOOTS = registerItem("citrine_boots",
             new ArmorItem(CitrineArmorMaterial.CITRINE, ArmorItem.Type.BOOTS, new FabricItemSettings()),
             ModItemGroup.CITRINE, ItemGroups.COMBAT);
+
     public static Item registerItem(String name, Item item, ItemGroup... itemGroups) {
         Item registerItem = Registry.register(Registries.ITEM, new Identifier(MxTestMod.MOD_ID, name), item);
         for (ItemGroup itemGroup: itemGroups) {
